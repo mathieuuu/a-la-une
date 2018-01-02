@@ -1,0 +1,6 @@
+framework module Pods_unes_du_jour {
+  umbrella header "Pods-unes du jour-umbrella.h"
+
+  export *
+  module * { export * }
+}
