@@ -1,0 +1,6 @@
+framework module Pods_A_la_Une {
+  umbrella header "Pods-A la Une-umbrella.h"
+
+  export *
+  module * { export * }
+}

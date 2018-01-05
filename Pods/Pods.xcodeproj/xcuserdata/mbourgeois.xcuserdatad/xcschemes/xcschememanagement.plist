@@ -4,17 +4,17 @@
 <dict>
 	<key>SchemeUserState</key>
 	<dict>
-		<key>Pods-unes du jour.xcscheme</key>
+		<key>Pods-A la Une.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-unes du jourTests.xcscheme</key>
+		<key>Pods-A la UneTests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>
 		</dict>
-		<key>Pods-unes du jourUITests.xcscheme</key>
+		<key>Pods-A la UneUITests.xcscheme</key>
 		<dict>
 			<key>isShown</key>
 			<false/>

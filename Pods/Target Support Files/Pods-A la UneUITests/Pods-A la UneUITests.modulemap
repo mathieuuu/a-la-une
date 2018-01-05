@@ -1,0 +1,6 @@
+framework module Pods_A_la_UneUITests {
+  umbrella header "Pods-A la UneUITests-umbrella.h"
+
+  export *
+  module * { export * }
+}

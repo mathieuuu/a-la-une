@@ -11,6 +11,6 @@
 #endif
 
 
-FOUNDATION_EXPORT double Pods_unes_du_jourTestsVersionNumber;
-FOUNDATION_EXPORT const unsigned char Pods_unes_du_jourTestsVersionString[];
+FOUNDATION_EXPORT double Pods_A_la_UneVersionNumber;
+FOUNDATION_EXPORT const unsigned char Pods_A_la_UneVersionString[];
 

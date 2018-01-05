@@ -30,6 +30,8 @@
 		38FADDD91FFBD2360050644D /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38FADDCC1FFBD1E00050644D /* AlamofireImage.framework */; };
 		38FADDDA1FFBD2360050644D /* AlamofireImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 38FADDCC1FFBD1E00050644D /* AlamofireImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3AA923373A24F62A61A9B486 /* Pods_unes_du_jourUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67AD4F10AA4C25C28DD00749 /* Pods_unes_du_jourUITests.framework */; };
+		493DA7C5649A8F2D1CD2D683 /* Pods_A_la_UneUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AB52EA2B58E3AA36A8C077E /* Pods_A_la_UneUITests.framework */; };
+		749E83EAD071BE0683C40500 /* Pods_A_la_UneTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9413E4AB13073951C08E809F /* Pods_A_la_UneTests.framework */; };
 		91404FDE388B00934885E1AE /* Pods_unes_du_jourTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = E37A04DE315BAAB9567C8501 /* Pods_unes_du_jourTests.framework */; };
 /* End PBXBuildFile section */
 
@@ -178,6 +180,7 @@
 /* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
+		01514CEB24388B31EF399B38 /* Pods-A la UneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-A la UneTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-A la UneTests/Pods-A la UneTests.release.xcconfig"; sourceTree = "<group>"; };
 		2444212A92E920B37C4B0AA3 /* Pods-unes du jourUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unes du jourUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-unes du jourUITests/Pods-unes du jourUITests.release.xcconfig"; sourceTree = "<group>"; };
 		382E45101FFC316C005B1410 /* alaune-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "alaune-icon.png"; path = "../../Desktop/alaune-icon.png"; sourceTree = "<group>"; };
 		3832AEE41FF3369400DA2F30 /* A la Une.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "A la Une.app"; sourceTree = BUILT_PRODUCTS_DIR; };
@@ -205,13 +208,21 @@
 		38D48C2F1FF900FE00FB339A /* ImageLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImageLoader.swift; sourceTree = "<group>"; };
 		38FADDA01FFBCEE70050644D /* Alamofire.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = Alamofire.xcodeproj; path = Alamofire/Alamofire.xcodeproj; sourceTree = "<group>"; };
 		38FADDBF1FFBD1E00050644D /* AlamofireImage.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = AlamofireImage.xcodeproj; path = AlamofireImage/AlamofireImage.xcodeproj; sourceTree = "<group>"; };
+		3AB52EA2B58E3AA36A8C077E /* Pods_A_la_UneUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_A_la_UneUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		464C65F8B7228C3A99186AB0 /* Pods-unes du jourTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unes du jourTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-unes du jourTests/Pods-unes du jourTests.release.xcconfig"; sourceTree = "<group>"; };
+		4F49BA5EF5B4BB758F5D90BA /* Pods-A la UneTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-A la UneTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-A la UneTests/Pods-A la UneTests.debug.xcconfig"; sourceTree = "<group>"; };
 		51E6AAC6EF5547FD86A3681E /* Pods-unes du jour.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unes du jour.debug.xcconfig"; path = "Pods/Target Support Files/Pods-unes du jour/Pods-unes du jour.debug.xcconfig"; sourceTree = "<group>"; };
 		67AD4F10AA4C25C28DD00749 /* Pods_unes_du_jourUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_unes_du_jourUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		705A2C6586B9F13ADD318DFE /* Pods_A_la_Une.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_A_la_Une.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		73303908AA5B0560003BA81B /* Pods-unes du jour.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unes du jour.release.xcconfig"; path = "Pods/Target Support Files/Pods-unes du jour/Pods-unes du jour.release.xcconfig"; sourceTree = "<group>"; };
+		7E389401AAC25FF5C02AB29C /* Pods-A la Une.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-A la Une.debug.xcconfig"; path = "Pods/Target Support Files/Pods-A la Une/Pods-A la Une.debug.xcconfig"; sourceTree = "<group>"; };
 		93C71D1CA52138E62A0858DF /* Pods-unes du jourUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unes du jourUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-unes du jourUITests/Pods-unes du jourUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		9413E4AB13073951C08E809F /* Pods_A_la_UneTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_A_la_UneTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		9CCE0E8ED5C54D51CA05BAF1 /* Pods_unes_du_jour.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_unes_du_jour.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		AE2C360587FBBF5B9430475F /* Pods-unes du jourTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unes du jourTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-unes du jourTests/Pods-unes du jourTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B0C5B67BA11635A87A071945 /* Pods-A la Une.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-A la Une.release.xcconfig"; path = "Pods/Target Support Files/Pods-A la Une/Pods-A la Une.release.xcconfig"; sourceTree = "<group>"; };
+		C33DAFE1876C268A2591FC00 /* Pods-A la UneUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-A la UneUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-A la UneUITests/Pods-A la UneUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DA83B5791C7C33ECBFAD5AE5 /* Pods-A la UneUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-A la UneUITests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-A la UneUITests/Pods-A la UneUITests.debug.xcconfig"; sourceTree = "<group>"; };
 		E37A04DE315BAAB9567C8501 /* Pods_unes_du_jourTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_unes_du_jourTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
@@ -230,6 +241,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				91404FDE388B00934885E1AE /* Pods_unes_du_jourTests.framework in Frameworks */,
+				749E83EAD071BE0683C40500 /* Pods_A_la_UneTests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -238,6 +250,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				3AA923373A24F62A61A9B486 /* Pods_unes_du_jourUITests.framework in Frameworks */,
+				493DA7C5649A8F2D1CD2D683 /* Pods_A_la_UneUITests.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -316,6 +329,9 @@
 				9CCE0E8ED5C54D51CA05BAF1 /* Pods_unes_du_jour.framework */,
 				E37A04DE315BAAB9567C8501 /* Pods_unes_du_jourTests.framework */,
 				67AD4F10AA4C25C28DD00749 /* Pods_unes_du_jourUITests.framework */,
+				705A2C6586B9F13ADD318DFE /* Pods_A_la_Une.framework */,
+				9413E4AB13073951C08E809F /* Pods_A_la_UneTests.framework */,
+				3AB52EA2B58E3AA36A8C077E /* Pods_A_la_UneUITests.framework */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -357,6 +373,12 @@
 				464C65F8B7228C3A99186AB0 /* Pods-unes du jourTests.release.xcconfig */,
 				93C71D1CA52138E62A0858DF /* Pods-unes du jourUITests.debug.xcconfig */,
 				2444212A92E920B37C4B0AA3 /* Pods-unes du jourUITests.release.xcconfig */,
+				7E389401AAC25FF5C02AB29C /* Pods-A la Une.debug.xcconfig */,
+				B0C5B67BA11635A87A071945 /* Pods-A la Une.release.xcconfig */,
+				4F49BA5EF5B4BB758F5D90BA /* Pods-A la UneTests.debug.xcconfig */,
+				01514CEB24388B31EF399B38 /* Pods-A la UneTests.release.xcconfig */,
+				DA83B5791C7C33ECBFAD5AE5 /* Pods-A la UneUITests.debug.xcconfig */,
+				C33DAFE1876C268A2591FC00 /* Pods-A la UneUITests.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
@@ -626,7 +648,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-unes du jourTests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-A la UneTests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -645,7 +667,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-unes du jourTests/Pods-unes du jourTests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-A la UneTests/Pods-A la UneTests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		55E6234182B45E68C5AD283C /* [CP] Copy Pods Resources */ = {
@@ -660,7 +682,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-unes du jourTests/Pods-unes du jourTests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-A la UneTests/Pods-A la UneTests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		5727CF4DC17F303EF896AC79 /* [CP] Embed Pods Frameworks */ = {
@@ -682,7 +704,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-unes du jour/Pods-unes du jour-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-A la Une/Pods-A la Une-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		A5C0781D73D6FD0102BFE643 /* [CP] Copy Pods Resources */ = {
@@ -697,7 +719,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-unes du jour/Pods-unes du jour-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-A la Une/Pods-A la Une-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		B77607403CD8FAC3785178F2 /* [CP] Check Pods Manifest.lock */ = {
@@ -711,7 +733,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-unes du jour-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-A la Une-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -730,7 +752,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-unes du jourUITests/Pods-unes du jourUITests-frameworks.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-A la UneUITests/Pods-A la UneUITests-frameworks.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 		D0333B23DC809D2CDFDF3BAC /* [CP] Check Pods Manifest.lock */ = {
@@ -744,7 +766,7 @@
 			);
 			name = "[CP] Check Pods Manifest.lock";
 			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-unes du jourUITests-checkManifestLockResult.txt",
+				"$(DERIVED_FILE_DIR)/Pods-A la UneUITests-checkManifestLockResult.txt",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
@@ -763,7 +785,7 @@
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-unes du jourUITests/Pods-unes du jourUITests-resources.sh\"\n";
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-A la UneUITests/Pods-A la UneUITests-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
 /* End PBXShellScriptBuildPhase section */
@@ -958,7 +980,7 @@
 		};
 		3832AF0D1FF3369400DA2F30 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 51E6AAC6EF5547FD86A3681E /* Pods-unes du jour.debug.xcconfig */;
+			baseConfigurationReference = 7E389401AAC25FF5C02AB29C /* Pods-A la Une.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -975,7 +997,7 @@
 		};
 		3832AF0E1FF3369400DA2F30 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 73303908AA5B0560003BA81B /* Pods-unes du jour.release.xcconfig */;
+			baseConfigurationReference = B0C5B67BA11635A87A071945 /* Pods-A la Une.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
@@ -992,7 +1014,7 @@
 		};
 		3832AF101FF3369400DA2F30 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = AE2C360587FBBF5B9430475F /* Pods-unes du jourTests.debug.xcconfig */;
+			baseConfigurationReference = 4F49BA5EF5B4BB758F5D90BA /* Pods-A la UneTests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1009,7 +1031,7 @@
 		};
 		3832AF111FF3369400DA2F30 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 464C65F8B7228C3A99186AB0 /* Pods-unes du jourTests.release.xcconfig */;
+			baseConfigurationReference = 01514CEB24388B31EF399B38 /* Pods-A la UneTests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				BUNDLE_LOADER = "$(TEST_HOST)";
@@ -1026,7 +1048,7 @@
 		};
 		3832AF131FF3369400DA2F30 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 93C71D1CA52138E62A0858DF /* Pods-unes du jourUITests.debug.xcconfig */;
+			baseConfigurationReference = DA83B5791C7C33ECBFAD5AE5 /* Pods-A la UneUITests.debug.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
@@ -1042,7 +1064,7 @@
 		};
 		3832AF141FF3369400DA2F30 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 2444212A92E920B37C4B0AA3 /* Pods-unes du jourUITests.release.xcconfig */;
+			baseConfigurationReference = C33DAFE1876C268A2591FC00 /* Pods-A la UneUITests.release.xcconfig */;
 			buildSettings = {
 				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				CODE_SIGN_STYLE = Automatic;
