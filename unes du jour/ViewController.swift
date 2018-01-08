@@ -18,20 +18,20 @@ class ViewController: UIViewController {
         
         let todayString: String = getTodayString()
         let todayUrls: Array<String> = [
-            "http://img.kiosko.net/\(todayString)/fr/liberation.750.jpg",
-            "http://img.kiosko.net/\(todayString)/fr/lemonde.750.jpg",
-            "http://img.kiosko.net/\(todayString)/fr/lefigaro.750.jpg",
-            "http://img.kiosko.net/\(todayString)/fr/parisien.750.jpg",
-            "http://img.kiosko.net/\(todayString)/fr/l_equip.750.jpg"
+            "http://www.revue2presse.fr/newspaper/liberation/liberation-cover.jpg",
+            "http://www.revue2presse.fr/newspaper/lemonde/lemonde-cover.jpg",
+            "http://www.revue2presse.fr/newspaper/lefigaro/lefigaro-cover.jpg",
+            "http://www.revue2presse.fr/newspaper/leparisien/leparisien-cover.jpg",
+            "http://www.revue2presse.fr/newspaper/lequipe/lequipe-cover.jpg"
         ]
         
         let yesterdayString: String = getYesterdayString()
         let yesterdayUrls: Array<String> = [
-            "http://img.kiosko.net/\(yesterdayString)/fr/liberation.750.jpg",
-            "http://img.kiosko.net/\(yesterdayString)/fr/lemonde.750.jpg",
-            "http://img.kiosko.net/\(yesterdayString)/fr/lefigaro.750.jpg",
-            "http://img.kiosko.net/\(yesterdayString)/fr/parisien.750.jpg",
-            "http://img.kiosko.net/\(yesterdayString)/fr/l_equip.750.jpg"
+            "http://www.revue2presse.fr/archive/newspaper/liberation/liberation-cover-\(yesterdayString).jpg",
+            "http://www.revue2presse.fr/archive/newspaper/lemonde/lemonde-cover-\(yesterdayString).jpg",
+            "http://www.revue2presse.fr/archive/newspaper/lefigaro/lefigaro-cover-\(yesterdayString).jpg",
+            "http://www.revue2presse.fr/archive/newspaper/leparisien/leparisien-cover-\(yesterdayString).jpg",
+            "http://www.revue2presse.fr/archive/newspaper/lequipe/lequipe-cover-\(yesterdayString).jpg"
         ]
         
         var usedUrls: Array<String> = todayUrls
@@ -44,9 +44,9 @@ class ViewController: UIViewController {
             dg.enter()
             
             Alamofire.request(todayUrl).response { ddr in
-                if ddr.response!.statusCode >= 400 {
+                if ddr.response!.statusCode >= 300 {
                     Alamofire.request(yesterdayUrls[index]).response { ddr2 in
-                        if ddr2.response!.statusCode >= 400 {
+                        if ddr2.response!.statusCode >= 300 {
                             urlsToRemove.insert(todayUrl)
                         } else {
                             usedUrls[index] = yesterdayUrls[index]
@@ -111,12 +111,12 @@ class ViewController: UIViewController {
     func getDateString(date: Date) -> String {
         let calendar = Calendar.current
         
-        let year = calendar.component(.year, from: date)
+        let year = calendar.component(.year, from: date)-2000
         let monthInt: Int = calendar.component(.month, from: date)
         let dayInt: Int = calendar.component(.day, from: date)
         let month: String = monthInt < 10 ? "0\(monthInt)" : String(monthInt)
         let day: String = dayInt < 10 ? "0\(dayInt)" : String(dayInt)
-        return "\(year)/\(month)/\(day)"
+        return "\(day)-\(month)-\(year)"
     }
 }
 
