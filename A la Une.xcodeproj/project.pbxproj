@@ -7,7 +7,6 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		382E45111FFC316C005B1410 /* alaune-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 382E45101FFC316C005B1410 /* alaune-icon.png */; };
 		3832AEE81FF3369400DA2F30 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3832AEE71FF3369400DA2F30 /* AppDelegate.swift */; };
 		3832AEEA1FF3369400DA2F30 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3832AEE91FF3369400DA2F30 /* ViewController.swift */; };
 		3832AEEF1FF3369400DA2F30 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 3832AEEE1FF3369400DA2F30 /* Assets.xcassets */; };
@@ -15,6 +14,9 @@
 		3832AEFD1FF3369400DA2F30 /* unes_du_jourTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3832AEFC1FF3369400DA2F30 /* unes_du_jourTests.swift */; };
 		3832AF081FF3369400DA2F30 /* unes_du_jourUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3832AF071FF3369400DA2F30 /* unes_du_jourUITests.swift */; };
 		384763061FF9098E00E14BA0 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 3832AEEB1FF3369400DA2F30 /* Main.storyboard */; };
+		387C8C68204C3FDD00E58ACC /* alaune-icon.png in Resources */ = {isa = PBXBuildFile; fileRef = 387C8C59204C3FDD00E58ACC /* alaune-icon.png */; };
+		387C8C6B204C496600E58ACC /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 387C8C6C204C496600E58ACC /* Alamofire.framework */; };
+		387C8C6D204C496600E58ACC /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38FADDCC1FFBD1E00050644D /* AlamofireImage.framework */; };
 		3894F3B31FF914CB00EA04A4 /* ImageSlideshow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3894F3AB1FF914CA00EA04A4 /* ImageSlideshow.swift */; };
 		3894F3B41FF914CB00EA04A4 /* UIImageView+Tools.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3894F3AC1FF914CA00EA04A4 /* UIImageView+Tools.swift */; };
 		3894F3B51FF914CB00EA04A4 /* ZoomAnimatedTransitioning.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3894F3AD1FF914CA00EA04A4 /* ZoomAnimatedTransitioning.swift */; };
@@ -25,10 +27,6 @@
 		3894F3BA1FF914CB00EA04A4 /* ActivityIndicator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3894F3B21FF914CB00EA04A4 /* ActivityIndicator.swift */; };
 		3894F3BC1FF915F000EA04A4 /* AlamofireSource.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3894F3BB1FF915F000EA04A4 /* AlamofireSource.swift */; };
 		38D48C301FF900FE00FB339A /* ImageLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 38D48C2F1FF900FE00FB339A /* ImageLoader.swift */; };
-		38FADDBA1FFBD0710050644D /* Alamofire.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38FADDAC1FFBCEE70050644D /* Alamofire.framework */; };
-		38FADDBB1FFBD0710050644D /* Alamofire.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 38FADDAC1FFBCEE70050644D /* Alamofire.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
-		38FADDD91FFBD2360050644D /* AlamofireImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 38FADDCC1FFBD1E00050644D /* AlamofireImage.framework */; };
-		38FADDDA1FFBD2360050644D /* AlamofireImage.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 38FADDCC1FFBD1E00050644D /* AlamofireImage.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
 		3AA923373A24F62A61A9B486 /* Pods_unes_du_jourUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 67AD4F10AA4C25C28DD00749 /* Pods_unes_du_jourUITests.framework */; };
 		493DA7C5649A8F2D1CD2D683 /* Pods_A_la_UneUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AB52EA2B58E3AA36A8C077E /* Pods_A_la_UneUITests.framework */; };
 		749E83EAD071BE0683C40500 /* Pods_A_la_UneTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9413E4AB13073951C08E809F /* Pods_A_la_UneTests.framework */; };
@@ -99,13 +97,6 @@
 			remoteGlobalIDString = E4202FE01B667AA100C997FB;
 			remoteInfo = "Alamofire watchOS";
 		};
-		38FADDBC1FFBD0710050644D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 38FADDA01FFBCEE70050644D /* Alamofire.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = F8111E3219A95C8B0040E7D1;
-			remoteInfo = "Alamofire iOS";
-		};
 		38FADDCB1FFBD1E00050644D /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = 38FADDBF1FFBD1E00050644D /* AlamofireImage.xcodeproj */;
@@ -155,34 +146,11 @@
 			remoteGlobalIDString = 4C4D4EC11B92976900C96855;
 			remoteInfo = "AlamofireImage watchOS";
 		};
-		38FADDDB1FFBD2360050644D /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 38FADDBF1FFBD1E00050644D /* AlamofireImage.xcodeproj */;
-			proxyType = 1;
-			remoteGlobalIDString = 4C9043761AABBFC5001B4E60;
-			remoteInfo = "AlamofireImage iOS";
-		};
 /* End PBXContainerItemProxy section */
-
-/* Begin PBXCopyFilesBuildPhase section */
-		38FADDBE1FFBD0710050644D /* Embed Frameworks */ = {
-			isa = PBXCopyFilesBuildPhase;
-			buildActionMask = 2147483647;
-			dstPath = "";
-			dstSubfolderSpec = 10;
-			files = (
-				38FADDBB1FFBD0710050644D /* Alamofire.framework in Embed Frameworks */,
-				38FADDDA1FFBD2360050644D /* AlamofireImage.framework in Embed Frameworks */,
-			);
-			name = "Embed Frameworks";
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-/* End PBXCopyFilesBuildPhase section */
 
 /* Begin PBXFileReference section */
 		01514CEB24388B31EF399B38 /* Pods-A la UneTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-A la UneTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-A la UneTests/Pods-A la UneTests.release.xcconfig"; sourceTree = "<group>"; };
 		2444212A92E920B37C4B0AA3 /* Pods-unes du jourUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-unes du jourUITests.release.xcconfig"; path = "Pods/Target Support Files/Pods-unes du jourUITests/Pods-unes du jourUITests.release.xcconfig"; sourceTree = "<group>"; };
-		382E45101FFC316C005B1410 /* alaune-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "alaune-icon.png"; path = "../../Desktop/alaune-icon.png"; sourceTree = "<group>"; };
 		3832AEE41FF3369400DA2F30 /* A la Une.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "A la Une.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3832AEE71FF3369400DA2F30 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3832AEE91FF3369400DA2F30 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -196,6 +164,9 @@
 		3832AF031FF3369400DA2F30 /* A la UneUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "A la UneUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
 		3832AF071FF3369400DA2F30 /* unes_du_jourUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = unes_du_jourUITests.swift; sourceTree = "<group>"; };
 		3832AF091FF3369400DA2F30 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		387C8C59204C3FDD00E58ACC /* alaune-icon.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; name = "alaune-icon.png"; path = "assets/alaune-icon.png"; sourceTree = "<group>"; };
+		387C8C69204C489F00E58ACC /* AlamofireImage */ = {isa = PBXFileReference; lastKnownFileType = folder; path = AlamofireImage; sourceTree = "<group>"; };
+		387C8C6C204C496600E58ACC /* Alamofire.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; path = Alamofire.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		3894F3AB1FF914CA00EA04A4 /* ImageSlideshow.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ImageSlideshow.swift; path = "../../../Downloads/ImageSlideshow-1.4.0/ImageSlideshow/Classes/Core/ImageSlideshow.swift"; sourceTree = "<group>"; };
 		3894F3AC1FF914CA00EA04A4 /* UIImageView+Tools.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = "UIImageView+Tools.swift"; path = "../../../Downloads/ImageSlideshow-1.4.0/ImageSlideshow/Classes/Core/UIImageView+Tools.swift"; sourceTree = "<group>"; };
 		3894F3AD1FF914CA00EA04A4 /* ZoomAnimatedTransitioning.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = ZoomAnimatedTransitioning.swift; path = "../../../Downloads/ImageSlideshow-1.4.0/ImageSlideshow/Classes/Core/ZoomAnimatedTransitioning.swift"; sourceTree = "<group>"; };
@@ -231,8 +202,8 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				38FADDD91FFBD2360050644D /* AlamofireImage.framework in Frameworks */,
-				38FADDBA1FFBD0710050644D /* Alamofire.framework in Frameworks */,
+				387C8C6B204C496600E58ACC /* Alamofire.framework in Frameworks */,
+				387C8C6D204C496600E58ACC /* AlamofireImage.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -260,7 +231,7 @@
 		3832AEDB1FF3369400DA2F30 = {
 			isa = PBXGroup;
 			children = (
-				382E45101FFC316C005B1410 /* alaune-icon.png */,
+				387C8C59204C3FDD00E58ACC /* alaune-icon.png */,
 				38FADDBF1FFBD1E00050644D /* AlamofireImage.xcodeproj */,
 				38FADDA01FFBCEE70050644D /* Alamofire.xcodeproj */,
 				3832AEE61FF3369400DA2F30 /* unes du jour */,
@@ -326,6 +297,8 @@
 		384763071FF90A5300E14BA0 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
+				387C8C6C204C496600E58ACC /* Alamofire.framework */,
+				387C8C69204C489F00E58ACC /* AlamofireImage */,
 				9CCE0E8ED5C54D51CA05BAF1 /* Pods_unes_du_jour.framework */,
 				E37A04DE315BAAB9567C8501 /* Pods_unes_du_jourTests.framework */,
 				67AD4F10AA4C25C28DD00749 /* Pods_unes_du_jourUITests.framework */,
@@ -396,13 +369,10 @@
 				3832AEE21FF3369400DA2F30 /* Resources */,
 				5727CF4DC17F303EF896AC79 /* [CP] Embed Pods Frameworks */,
 				A5C0781D73D6FD0102BFE643 /* [CP] Copy Pods Resources */,
-				38FADDBE1FFBD0710050644D /* Embed Frameworks */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				38FADDBD1FFBD0710050644D /* PBXTargetDependency */,
-				38FADDDC1FFBD2360050644D /* PBXTargetDependency */,
 			);
 			name = "A la Une";
 			productName = "unes du jour";
@@ -615,7 +585,7 @@
 			files = (
 				384763061FF9098E00E14BA0 /* Main.storyboard in Resources */,
 				3832AEF21FF3369400DA2F30 /* LaunchScreen.storyboard in Resources */,
-				382E45111FFC316C005B1410 /* alaune-icon.png in Resources */,
+				387C8C68204C3FDD00E58ACC /* alaune-icon.png in Resources */,
 				3832AEEF1FF3369400DA2F30 /* Assets.xcassets in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -839,16 +809,6 @@
 			target = 3832AEE31FF3369400DA2F30 /* A la Une */;
 			targetProxy = 3832AF041FF3369400DA2F30 /* PBXContainerItemProxy */;
 		};
-		38FADDBD1FFBD0710050644D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "Alamofire iOS";
-			targetProxy = 38FADDBC1FFBD0710050644D /* PBXContainerItemProxy */;
-		};
-		38FADDDC1FFBD2360050644D /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			name = "AlamofireImage iOS";
-			targetProxy = 38FADDDB1FFBD2360050644D /* PBXContainerItemProxy */;
-		};
 /* End PBXTargetDependency section */
 
 /* Begin PBXVariantGroup section */
@@ -982,7 +942,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = 7E389401AAC25FF5C02AB29C /* Pods-A la Une.debug.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L9GM8E6535;
@@ -999,7 +958,6 @@
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = B0C5B67BA11635A87A071945 /* Pods-A la Une.release.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = L9GM8E6535;
