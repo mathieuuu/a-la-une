@@ -8,6 +8,7 @@
 
 import UIKit
 import Alamofire
+import Foundation
 
 class ViewController: UIViewController {
 
@@ -65,9 +66,12 @@ class ViewController: UIViewController {
             }
             
             var alamofireSource = [InputSource]()
-            for url in usedUrls {
-                alamofireSource.append(AlamofireSource(urlString: url)!)
-                print("used:"+url)
+            for uu in usedUrls {
+                if let urlObject: URL = URL(string: uu) {
+                    let kfs: KingfisherSource = KingfisherSource(url: urlObject)
+                    alamofireSource.append(kfs)
+                    print("used:"+uu)
+                }
             }
             
             self.slideshow.backgroundColor = UIColor.black
